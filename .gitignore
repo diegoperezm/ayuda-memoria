@@ -7,6 +7,8 @@
 auto-save-list
 tramp
 .\#*
+*.~undo-tree~
+.*.*.~undo-tree~
 
 # Org-mode
 .org-id-locations
