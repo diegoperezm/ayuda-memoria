@@ -1,18 +1,19 @@
 
 # Table of Contents
 
-1.  [ls](#orgb410405)
-    1.  [ls -lrt](#org38843ce)
-    2.  [ssh](#orgda8befd)
-    3.  [nohup](#orga763022)
+1.  [ls](#org2c17aa6)
+    1.  [ls -lrt](#orgc594324)
+    2.  [ssh](#orgeb63568)
+    3.  [nohup](#org2059627)
+2.  [live](#org1ed4916)
 
 
-<a id="orgb410405"></a>
+<a id="org2c17aa6"></a>
 
 # ls
 
 
-<a id="org38843ce"></a>
+<a id="orgc594324"></a>
 
 ## ls -lrt
 
@@ -27,7 +28,7 @@ display the contents in the present directory sorted in reverse chronological or
     ls -ltr ../game
 
 
-<a id="orgda8befd"></a>
+<a id="orgeb63568"></a>
 
 ## ssh
 
@@ -41,10 +42,17 @@ display the contents in the present directory sorted in reverse chronological or
 -K:  Enables GSSAPI-based authentication and forwarding (delegation) of GSSAPI credentials to the server.
 
 
-<a id="orga763022"></a>
+<a id="org2059627"></a>
 
 ## nohup
 
 nohup: 
 run a command immune to hangups, with output to a non-tty
+
+
+<a id="org1ed4916"></a>
+
+# live
+
+<https://diegoperezm.github.io/ayuda-memoria>
 
