@@ -19,3 +19,25 @@ ls -ltr ../game
 #+end_src
 
 #+RESULTS:
+: total 16
+: drwxrwxr-x 2 dapm dapm 4096 dic 21 20:09 shooter
+: drwxrwxr-x 3 dapm dapm 4096 dic 21 21:06 c
+: drwxrwxr-x 3 dapm dapm 4096 dic 27 20:12 practice
+: drwxrwxr-x 5 dapm dapm 4096 dic 29 18:58 ray-lib
+
+
+** ssh 
+
+#+begin_src sh
+ssh-agent bash  
+ssh-add -K ~/.ssh/id_rsa
+#+end_src
+
+
+--- 
+
+#+begin_src 
+ssh-add -K ~/.ssh/id_rsa
+#+end_src
+
+  -K:  Enables GSSAPI-based authentication and forwarding (delegation) of GSSAPI credentials to the server.
