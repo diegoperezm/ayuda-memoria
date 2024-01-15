@@ -1,0 +1,21 @@
+
+
+* ls 
+
+** ls -lrt
+
+ display the contents in the present directory sorted in reverse chronological order. The newest files are shown at the bottom.
+
+#+begin_src sh  :eval no
+ls -ltr
+#+end_src
+
+ -l: long listing
+ -t: sort by modification time, newest first
+ -r: reverses the order of ls command output.
+
+#+begin_src sh  :results output
+ls -ltr ../game
+#+end_src
+
+#+RESULTS:
