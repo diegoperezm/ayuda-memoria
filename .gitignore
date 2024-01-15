@@ -9,6 +9,8 @@ tramp
 .\#*
 *.~undo-tree~
 .*.*.~undo-tree~
+.README.md.~undo-tree~
+.README.org.~undo-tree~
 
 # Org-mode
 .org-id-locations
